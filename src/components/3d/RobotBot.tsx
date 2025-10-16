@@ -8,7 +8,7 @@ import { RoundedBox } from '@react-three/drei';
 export function RobotBot() {
   const groupRef = useRef<Group>(null);
   const headRef = useRef<Group>(null);
-  const antennaRef = useRef<Mesh>(null);
+  const antennaRef = useRef<Group>(null);
   const leftArmRef = useRef<Group>(null);
   const rightArmRef = useRef<Group>(null);
   const leftLegRef = useRef<Group>(null);
